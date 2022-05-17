@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #f2bc94;
+    color: #900020;
+}
+
+#Contenedor {
+    width: 960px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+header{
+    height: 150px;
+    background: #2a3132;
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+}
+
+nav {
+    background: #68829e;
+    height: 60px;
+}
+
+nav h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+}
+
+#Contenido{
+    width: 700px;
+    height: 500px;
+    float: left;
+    background: #f5f5dc;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #666666;
+}
+
+#Contenido h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+
+aside {
+    width: 250px;
+    height: 500px;
+    background: #336b87;
+    margin-top: 10px;
+    float: right;
+}
+
+aside h2 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+aside p {
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+
+footer {
+    background: #2a3132;
+    clear: both;
+
+}
+
+footer h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+#generarTabla {
+    margin: 150px auto;
+    width: 600px;
+}
+
+table{
+    background-color: #ffa781;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    color:#000;
+}
+
+th, td, tr {
+    border: solid 1px black;
+    padding: 10px;
+}
+thead{
+    background-color: #246355;
+    color:white;
+    border-bottom: solid 5px #0f362d;
+}
+
+tr:nth-child(even){
+    background-color: #30110D;
+    color: white;
+}
+
+tr:hover {
+    background-color: #F2BC94;
+    color: white; 
+}
+
+#Navegador table{
+    background-color: #ffa781
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    color: #f5f5dc
+}
+
+button{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: italic;
+    color: #fff;
+    background-color: #30110D;
+    border-radius: 15px;
+    border: 3px double #006505;
+}
+
+button:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
